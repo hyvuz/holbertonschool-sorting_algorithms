@@ -1,0 +1,1 @@
+This project focuses on understanding and implementing Big O notation in the context of sorting algorithms.
