@@ -1,5 +1,13 @@
 #include "sort.h"
 
+/**
+ * insertion_sort_list - Sorts a doubly linked list using insertion sort
+ * @list: Double pointer to the head of the list
+ *
+ * Description: Sorts the list in ascending order using the insertion sort
+ * algorithm. It rearranges the nodes by updating links (not the data).
+ */
+
 void insertion_sort_list(listint_t **list)
 {
 listint_t *current, *next_node, *temp;
